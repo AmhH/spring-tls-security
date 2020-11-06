@@ -1,0 +1,6 @@
+keytool -genkey -keyalg RSA -alias medium -keystore medium.jks -storepass password -validity 365 -keysize 4096 -storetype pkcs12
+We are generating a certificate along with the following tasks in the above command:
+Using the RSA algorithm
+Providing an alias name as medium
+Naming the Keystore file as medium.jks
+Validity for one year
